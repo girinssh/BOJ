@@ -1,0 +1,583 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\CodeForces">
+      <UniqueIdentifier>{ad4f10bb-b641-4ffb-8ebe-55cd1c595eb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BOJ">
+      <UniqueIdentifier>{f0a1b35c-e7d1-40b6-bf51-972d7848f03d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Study">
+      <UniqueIdentifier>{b39dd196-72b9-4670-ab46-fa7f880d0891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BOJ\2020January">
+      <UniqueIdentifier>{ca71a0c2-ad26-43ca-9a40-5bfc8e6b1204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BOJ\2020Febuary">
+      <UniqueIdentifier>{19c50a63-3c87-4e95-b3e7-5b4220949726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BOJ\2020March">
+      <UniqueIdentifier>{605858e0-5e04-43d0-9cfa-5e0cd9682f07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Google Code Jam">
+      <UniqueIdentifier>{44c23ad3-4b95-4786-9cc3-24a65bb7136d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BOJ\2020April">
+      <UniqueIdentifier>{0e437b26-70cb-4a52-be6e-c787e729a410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BOJ\2020May">
+      <UniqueIdentifier>{cbb327f0-d99f-4961-a5ca-2f03c0a51366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BOJ\2020July">
+      <UniqueIdentifier>{a679427a-31bd-46de-9940-b3feaa94ebe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BOJ\2020UCPC">
+      <UniqueIdentifier>{738a7d1f-0149-40d9-8883-42136279133a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BOJ\2020August">
+      <UniqueIdentifier>{88e79060-1d83-4b26-97b1-ac427b797575}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CFS1287A.cpp">
+      <Filter>소스 파일\CodeForces</Filter>
+    </ClCompile>
+    <ClCompile Include="00BOJ2136.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="CFS1285A.cpp">
+      <Filter>소스 파일\CodeForces</Filter>
+    </ClCompile>
+    <ClCompile Include="20190918.cpp">
+      <Filter>소스 파일\Study</Filter>
+    </ClCompile>
+    <ClCompile Include="20191002.cpp">
+      <Filter>소스 파일\Study</Filter>
+    </ClCompile>
+    <ClCompile Include="20191030.cpp">
+      <Filter>소스 파일\Study</Filter>
+    </ClCompile>
+    <ClCompile Include="20191113.cpp">
+      <Filter>소스 파일\Study</Filter>
+    </ClCompile>
+    <ClCompile Include="20191120.cpp">
+      <Filter>소스 파일\Study</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicGraphStudy.cpp">
+      <Filter>소스 파일\Study</Filter>
+    </ClCompile>
+    <ClCompile Include="00BOJ2580.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="00CFS1269B.cpp">
+      <Filter>소스 파일\CodeForces</Filter>
+    </ClCompile>
+    <ClCompile Include="00BOJ11563.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="CFS1294A.cpp">
+      <Filter>소스 파일\CodeForces</Filter>
+    </ClCompile>
+    <ClCompile Include="CFS1294B.cpp">
+      <Filter>소스 파일\CodeForces</Filter>
+    </ClCompile>
+    <ClCompile Include="00BOJ15829.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="CFS1145A.cpp">
+      <Filter>소스 파일\CodeForces</Filter>
+    </ClCompile>
+    <ClCompile Include="CFS393A.cpp">
+      <Filter>소스 파일\CodeForces</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1085.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1100.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1149.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1309.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1431.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1436.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1463.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1652.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1662.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1697.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1748.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1764.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1918.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1929.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1937.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1964.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ2108.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ2178.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ2193.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ2257.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ2309.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ2563.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ2751.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ2884.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ2902.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ3009.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ3053.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ4153.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ4948.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ4963.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ5635.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ6359.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ7568.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ9020.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ9461.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ10250.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ10275.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ10448.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ10597.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ10817.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ10866.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ10953.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ11727.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ11866.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ13458.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ14501.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ14502.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ14888.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ14889.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ14919.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ15353.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ15654.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ15655.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ15683.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ17201.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ17202.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ17203.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ17204.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ17205.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ17206.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ17292.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ18005.cpp">
+      <Filter>소스 파일\BOJ\2020January</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ2630.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ2606.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="CFS399A.cpp">
+      <Filter>소스 파일\CodeForces</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1010.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ9095.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1932.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ9625.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ9655.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1371.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ16561.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ17413.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ15904.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ14606.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="STLStudy.cpp">
+      <Filter>소스 파일\Study</Filter>
+    </ClCompile>
+    <ClCompile Include="Dummy.cpp">
+      <Filter>소스 파일\Study</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ3005.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ17949.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1325.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1158.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1934.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1475.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1476.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1094.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1037.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ10610.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ11004.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1789.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ2822.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ11728.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ8979.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ10867.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ2503.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ9656.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1236.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1004.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1015.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1021.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1026.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1049.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1072.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1120.cpp">
+      <Filter>소스 파일\BOJ\2020Febuary</Filter>
+    </ClCompile>
+    <ClCompile Include="00BOJ1912.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="00BOJ2156.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="00BOJ11404.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="00BOJ17971.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1174.cpp">
+      <Filter>소스 파일\BOJ\2020March</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1759.cpp">
+      <Filter>소스 파일\BOJ\2020March</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1059.cpp">
+      <Filter>소스 파일\BOJ\2020March</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Dummy.c">
+      <Filter>소스 파일\Study</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ2089.cpp">
+      <Filter>소스 파일\BOJ\2020March</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1248.cpp">
+      <Filter>소스 파일\BOJ\2020March</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ2872.cpp">
+      <Filter>소스 파일\BOJ\2020March</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ2847.cpp">
+      <Filter>소스 파일\BOJ\2020March</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ5904.cpp">
+      <Filter>소스 파일\BOJ\2020March</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1205.cpp">
+      <Filter>소스 파일\BOJ\2020March</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1343.cpp">
+      <Filter>소스 파일\BOJ\2020March</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ6603.cpp">
+      <Filter>소스 파일\BOJ\2020March</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ7569.cpp">
+      <Filter>소스 파일\BOJ\2020March</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ11653.cpp">
+      <Filter>소스 파일\BOJ\2020March</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1966.cpp">
+      <Filter>소스 파일\BOJ\2020March</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ6679.cpp">
+      <Filter>소스 파일\BOJ\2020March</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ2858.cpp">
+      <Filter>소스 파일\BOJ\2020March</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ2966.cpp">
+      <Filter>소스 파일\BOJ\2020March</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ4641.cpp">
+      <Filter>소스 파일\BOJ\2020March</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ3085.cpp">
+      <Filter>소스 파일\BOJ\2020March</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1251.cpp">
+      <Filter>소스 파일\BOJ\2020March</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1268.cpp">
+      <Filter>소스 파일\BOJ\2020March</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1914.cpp">
+      <Filter>소스 파일\BOJ\2020March</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1063.cpp">
+      <Filter>소스 파일\BOJ\2020March</Filter>
+    </ClCompile>
+    <ClCompile Include="Vestigium.cpp">
+      <Filter>소스 파일\Google Code Jam</Filter>
+    </ClCompile>
+    <ClCompile Include="Nesting Depth.cpp">
+      <Filter>소스 파일\Google Code Jam</Filter>
+    </ClCompile>
+    <ClCompile Include="Parenting Partnering Returns.cpp">
+      <Filter>소스 파일\Google Code Jam</Filter>
+    </ClCompile>
+    <ClCompile Include="Indicium.cpp">
+      <Filter>소스 파일\Google Code Jam</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ18870.cpp">
+      <Filter>소스 파일\BOJ\2020April</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ17626.cpp">
+      <Filter>소스 파일\BOJ\2020April</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ10997.cpp">
+      <Filter>소스 파일\BOJ\2020April</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ18429.cpp">
+      <Filter>소스 파일\BOJ\2020April</Filter>
+    </ClCompile>
+    <ClCompile Include="Expogo.cpp">
+      <Filter>소스 파일\Google Code Jam</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1074.cpp">
+      <Filter>소스 파일\BOJ\2020April</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ7576.cpp">
+      <Filter>소스 파일\BOJ\2020April</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1927.cpp">
+      <Filter>소스 파일\BOJ\2020May</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ7662.cpp">
+      <Filter>소스 파일\BOJ\2020May</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1620.cpp">
+      <Filter>소스 파일\BOJ\2020May</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ11724.cpp">
+      <Filter>소스 파일\BOJ\2020May</Filter>
+    </ClCompile>
+    <ClCompile Include="00BOJ18868.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ11279.cpp">
+      <Filter>소스 파일\BOJ\2020May</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ14659.cpp">
+      <Filter>소스 파일\BOJ\2020May</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ16283.cpp">
+      <Filter>소스 파일\BOJ\2020May</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1359.cpp">
+      <Filter>소스 파일\BOJ\2020May</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ3049.cpp">
+      <Filter>소스 파일\BOJ\2020July</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1919.cpp">
+      <Filter>소스 파일\BOJ\2020July</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ1568.cpp">
+      <Filter>소스 파일\BOJ\2020July</Filter>
+    </ClCompile>
+    <ClCompile Include="002020UCPC_C.cpp">
+      <Filter>소스 파일\BOJ\2020UCPC</Filter>
+    </ClCompile>
+    <ClCompile Include="00BOJ11725.cpp">
+      <Filter>소스 파일\BOJ\2020August</Filter>
+    </ClCompile>
+    <ClCompile Include="00BOJ1753.cpp">
+      <Filter>소스 파일\BOJ\2020August</Filter>
+    </ClCompile>
+    <ClCompile Include="00BOJ1931.cpp">
+      <Filter>소스 파일\BOJ\2020August</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ3895.cpp">
+      <Filter>소스 파일\BOJ\2020August</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
