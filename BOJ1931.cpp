@@ -22,24 +22,20 @@ int main(void) {
 			maxDay = e;
 		}
 	}
-
 	v.sort();
 
 	list<pair<int, int>>::iterator iter = v.begin();
 
 	int cnt = 0;
 	int last = 0;
-	while (iter != v.end()) {
-		while(iter != v.end()) {
-			if (iter->second >= last) {
-				last = iter->first;
-				cnt++;
-				iter++;
-				break;
-			}
-			iter++;
+	while(iter != v.end()) {
+		if (iter->second >= last) {
+			last = iter->first;
+			cnt++;
 		}
+		iter++;
 	}
+	
 	cout << cnt;
 	return 0;
 }
