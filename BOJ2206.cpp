@@ -5,9 +5,9 @@
 using namespace std;
 
 const int dir[4][2] = {
+	{-1, 0},
 	{0, 1},
 	{1, 0},
-	{-1, 0},
 	{0, -1}
 };
 
@@ -31,14 +31,16 @@ int bfs(vector<string>& map) {
 	qp.push({ 0, 0, false, 1 });
 	check[0][0] = 2;
 
-	int minCnt = n * m;
+	int minCnt = 1e9;
 
 	while (!qp.empty()) {
 		pos p = qp.front();
 		qp.pop();
 
 		if (p.x == m - 1 && p.y == n - 1) {
-			return p.dist;
+			if (p.dist < minCnt) {
+				minCnt = p.dist;
+			}
 		}
 		if (check[p.y][p.x] == 2 && p.isBroken)
 			continue;
@@ -53,15 +55,9 @@ int bfs(vector<string>& map) {
 			}
 
 			if (map[dy][dx] == '0') {
-				// 완전 빈칸으로 갈때
-				if (check[dy][dx] == 0) {
+				if (check[dy][dx] < check[p.y][p.x]) {
 					check[dy][dx] = check[p.y][p.x];
 					qp.push({ dx, dy, p.isBroken, p.dist + 1 });
-				}
-				// 안 부순애가 부순애가 지나간 길로 갈 때.
-				else if (check[dy][dx] < check[p.y][p.x] && !p.isBroken) {
-					check[dy][dx] = 2;
-					qp.push({ dx, dy, false, p.dist + 1 });
 				}
 			}
 			//벽쪽으로 갈 때
@@ -74,7 +70,7 @@ int bfs(vector<string>& map) {
 			}
 		}
 	}
-	if(minCnt == n*m)
+	if(minCnt == 1e9)
 		return -1;
 	return minCnt;
 }
@@ -101,3 +97,14 @@ int main(void) {
 
 	return 0;
 }
+
+/*
+0 000 00
+0 0 0 00
+0 0 0 00
+0 0 0 00
+0 0 0 00
+0 0 0 00
+0 0 0 00
+000 0 00
+*/
